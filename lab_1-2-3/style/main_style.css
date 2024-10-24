@@ -19,9 +19,12 @@ h2 {
    display: flex;
    justify-content: space-between;
    gap: 20px;
+   align-items: top;
+
 }
 
 .content-left, .content-right {
+   height: fit-content;
    border: 3px solid rgb(20, 81, 212);
    padding: 10px;
    border: 10px solid #fff;
@@ -43,3 +46,15 @@ h2 {
    width: 100%;
    height: auto;
 }
+
+.header {
+   display: flex;
+   justify-content: end;
+   flex-wrap: nowrap;
+}
+
+.header a {
+   margin: 10px;
+   text-decoration: none;
+}
+

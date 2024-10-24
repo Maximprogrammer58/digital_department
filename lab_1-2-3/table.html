@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+   <title>Лабораторная работа 4-5</title>
+   <link rel="stylesheet" href="style/main_style.css">
+   <link rel="stylesheet" href="style/table.css">
+</head>
+
+<body>
+   <div class="header">
+      <a href="#">Основная страница</a>
+      <a href="index.html">Позиционирование элементов</a>
+      <a href="table.html">Таблица</a>
+   </div>
+
+   <table>
+      <caption><b>Характеристики некоторых моделей авто</b></caption>
+      <thead>
+         <tr>
+            <th>ID</th>
+            <th>Модель</th>
+            <th>Масса</th>
+            <th>Объем двигателя</th>
+            <th>Мощность</th>
+            <th>Время разгона</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>1</td>
+            <td>Audi A4</td>
+            <td>1500</td>
+            <td>2.0</td>
+            <td>190</td>
+            <td>6.5</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>BMW 3 Series</td>
+            <td>1600</td>
+            <td>2.0</td>
+            <td>180</td>
+            <td>6.8</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Mercedes-Benz C</td>
+            <td>1550</td>
+            <td>2.0</td>
+            <td>190</td>
+            <td>6.4</td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>Toyota Camry</td>
+            <td>1450</td>
+            <td>2.5</td>
+            <td>200</td>
+            <td>7.0</td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td>Ford Focus</td>
+            <td>1300</td>
+            <td>1.5</td>
+            <td>150</td>
+            <td>8.0</td>
+         </tr>
+         <tr>
+            <td>6</td>
+            <td>Honda Civic</td>
+            <td>1250</td>
+            <td>1.8</td>
+            <td>140</td>
+            <td>7.5</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <form action="/" method="POST">
+      <input type="text" name="model" placeholder="Модель" required>
+      <input type="number" name="mass" placeholder="Масса (кг)" required>
+      <input type="number" name="engineVolume" placeholder="Объем двигателя (л)" required>
+      <input type="number" name="power" placeholder="Мощность (л.с.)" required>
+      <input type="number" name="acceleration" placeholder="Время разгона (с)" required>
+      <button type="submit">Добавить</button>
+   </form>
+
+</body>
+
+</html>
